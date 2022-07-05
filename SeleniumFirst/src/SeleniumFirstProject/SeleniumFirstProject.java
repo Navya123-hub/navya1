@@ -34,7 +34,7 @@ public class SeleniumFirstProject {
         driver.get("https://parabank.parasoft.com/parabank/index.htm");
        
         //5.close the application
-        driver.close();
+        driver.quit();
         
 	}
 
